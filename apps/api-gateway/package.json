@@ -1,0 +1,38 @@
+{
+  "name": "@ecommerce/api-gateway",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "express": "4.18.2",
+    "@prisma/client": "5.8.1",
+    "jsonwebtoken": "9.0.2",
+    "bcryptjs": "2.4.3",
+    "zod": "3.22.4",
+    "nodemailer": "6.9.8",
+    "redis": "4.6.12",
+    "razorpay": "2.9.2",
+    "cors": "2.8.5",
+    "helmet": "7.1.0",
+    "express-rate-limit": "7.1.5",
+    "dotenv": "16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.7",
+    "@types/express": "4.17.21",
+    "@types/cors": "2.8.17",
+    "@types/bcryptjs": "2.4.6",
+    "@types/jsonwebtoken": "9.0.5",
+    "@types/nodemailer": "6.4.14",
+    "@typescript-eslint/eslint-plugin": "6.18.1",
+    "@typescript-eslint/parser": "6.18.1",
+    "eslint": "8.56.0",
+    "typescript": "5.3.3",
+    "tsx": "4.7.0"
+  }
+}

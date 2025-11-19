@@ -1,0 +1,15 @@
+{
+  "name": "@ecommerce/auth",
+  "version": "1.0.0",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "dependencies": {
+    "jsonwebtoken": "9.0.2",
+    "bcryptjs": "2.4.3",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "9.0.5",
+    "@types/bcryptjs": "2.4.6"
+  }
+}
